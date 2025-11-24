@@ -1,7 +1,7 @@
 use std::env;
 use std::fs;
 
-pub fn my_function() {
+pub fn day1() {
     // CHALLENGE PART 1
 
     let args: Vec<String> = env::args().collect();
