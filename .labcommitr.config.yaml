@@ -8,7 +8,7 @@ config:
   emoji_enabled: true
   force_emoji_detection: null
 format:
-  template: '{emoji}{type}({scope}): {subject}'
+  template: '{emoji} {type}({scope}): {subject}'
   subject_max_length: 50
   body:
     required: false
