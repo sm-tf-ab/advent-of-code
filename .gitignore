@@ -1,3 +1,5 @@
 # Remove custom inputs from source control.
-**/inputs/**
+**/inputs/*
 !**/inputs/INFO.md
+node_modules/
+.DS_Store
