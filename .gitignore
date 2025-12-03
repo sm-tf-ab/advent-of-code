@@ -3,3 +3,17 @@
 !**/inputs/INFO.md
 node_modules/
 .DS_Store
+ 
+# Rust build artifacts
+**/target/
+
+# Gleam build artifacts
+**/build/
+
+# macOS debug symbol bundles
+*.dSYM/
+
+# Editor/OS noise
+.idea/
+.vscode/
+Thumbs.db
