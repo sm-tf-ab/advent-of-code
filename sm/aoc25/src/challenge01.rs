@@ -1,7 +1,7 @@
 use std::env;
 use std::fs;
 
-// Helper function to turn the dial given an amount, current value of pointer and password.
+
 fn turn_dial(pointer: &mut i32, password: &mut i32, amt: i32) {
     *pointer = (*pointer + amt).rem_euclid(100);
 
@@ -14,7 +14,7 @@ fn turn_dial(pointer: &mut i32, password: &mut i32, amt: i32) {
 
 pub fn solve() {
 
-    // CHALLENGE PART 1
+    // CHALLENGE DAY 1 PART 2
     println!("Solving Day 01!");
     let args: Vec<String> = env::args().collect();
     let file_path = &args[1];
