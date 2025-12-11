@@ -1,9 +1,10 @@
 use std::env;
 use std::fs;
 
+#[allow(dead_code)]
 pub fn solve() {
     // CHALLENGE DAY 1 PART 2
-    println!("Solving Day 01!");
+    println!("Solving Day 01, Challenge 2!");
     let args: Vec<String> = env::args().collect();
     let file_path = &args[1];
 

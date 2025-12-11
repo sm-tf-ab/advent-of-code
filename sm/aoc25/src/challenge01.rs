@@ -12,10 +12,11 @@ fn turn_dial(pointer: &mut i32, password: &mut i32, amt: i32) {
     }
 }
 
+#[allow(dead_code)]
 pub fn solve() {
 
     // CHALLENGE DAY 1 PART 2
-    println!("Solving Day 01!");
+    println!("Solving Day 01, Challenge 1!");
     let args: Vec<String> = env::args().collect();
     let file_path = &args[1];
     
